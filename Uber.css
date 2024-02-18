@@ -1,0 +1,600 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between; 
+    padding: 0rem 4rem;
+}
+#left {
+    display: flex;
+    justify-content: space-between;
+}
+#left #leftA  a {
+    color: white;
+    font-size: 1.6rem;
+    font-family:  sans-serif;
+    
+}
+#leftA{
+    margin-top: 0.5rem;
+}
+
+#left #leftU ul {
+    display: flex;
+    justify-content: space-between;
+}
+#left #leftU ul li {
+    padding : 0rem 1rem;
+    list-style-type: none;
+    
+}
+#left a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+#right{
+    display: flex;
+    /* justify-content: space-between; */
+}
+#right  #rightL ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 0.8rem;
+}
+#right  #rightL ul li{
+    padding: 0rem 0rem;
+}
+#right a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+   
+
+}
+#right li a button{
+    border-radius: 10px;
+    height: 1.8rem;
+    width: 57px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 0.9rem;
+    
+}
+#right #rightL #ul #but li a button{
+    background-color: white;
+    color: black;
+    height: 1.8rem;
+    border-radius: 15px;
+}
+#Go{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* width: 80%;
+    margin: auto; */
+    margin-top: 12rem;
+}
+#Go{
+    width: 100%;
+    padding-top: 20px;
+}
+#Go #GoLeft{
+    width: 50%;
+    margin: auto;
+}
+#Go #GoLeft h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+    margin-top: -9rem;
+    padding-left: 12.5%;
+    
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+#Go #GoLeft p{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 12%;
+} 
+#Go #GoLeft input{
+    padding: 0.7rem;
+    width: 80%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    border: none;
+}
+.fa-solid{
+   margin-right: -0.6rem;
+   font-size: 1rem;
+}
+#Go #GoLeft button{
+    width: 25%;
+    height:2.9rem ;
+    padding: 0.7rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    border: none;
+    color: black;
+    /* font-weight: 550; */
+    font-size: 16px;
+    font-weight: 540;
+    line-height: 20px;
+    font-family:   Helvetica, Arial, sans-serif;
+
+
+}
+#Go #GoRight img{
+    width: 68%;
+    margin-top: -10rem;
+    margin-left: 13rem;
+    margin-bottom: 3.5rem;
+    
+}
+.inp{
+    z-index: 2;
+    position: relative;
+}
+#GoLeft{
+    position: relative;
+}
+#icon i{
+    position:absolute;
+
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: end;
+    margin-bottom: -2.3rem;
+    margin-right: 1rem;
+    top: 27%;
+    left: 87%;
+    color: black;
+    z-index: 3;
+}
+.fa-circle-stop {
+    position:absolute;
+
+    font-size: 0.7rem;
+    display: flex;
+    justify-content:start;
+    margin-bottom: -2.3rem;
+    margin-right: 1rem;
+    top: 30%;
+    left: 13%;
+    color: black;
+    z-index: 4;
+}
+.fa-square-full{
+    position:absolute;
+
+    font-size: 0.7rem;
+    display: flex;
+    justify-content:start;
+    margin-bottom: -2.3rem;
+    margin-right: 1rem;
+    top: 56%;
+    left: 13%;
+    color: black;
+    z-index: 4
+
+}
+input,input::placeholder{
+    font-size: 1rem;
+    padding-left: 1.5rem;
+}
+
+footer{
+    background-color: black;
+
+} 
+
+footer  #foot a{
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+
+}
+footer  #foot a p{
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+#foot{
+    padding: 3rem 4rem;
+} 
+#fooLi{
+    display: flex;
+    padding: 0rem; 
+}
+#fooLi ul{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 7rem;
+    padding-left: 4rem;
+} 
+#fooLi ul li{
+    padding: 0.5rem 0;  
+}
+#fooLi ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+#fooLi ul h3{
+    color: white;
+    padding-bottom: 0rem;
+
+}
+#foIcon{
+    display: flex;
+    justify-content: space-between;
+}
+#IconLeft ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+#IconLeft ul li{
+    padding: 0rem 3rem;
+    
+}
+#IconRight ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+#IconRight ul li{
+    padding: 0rem 1.5rem;
+}
+.fa-globe{
+    padding-right: 1rem;
+}
+.fa-location-dot{
+    padding-right: 1rem;
+}
+#foIcon button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: -1rem;
+    margin-top: 3rem;
+}
+#IconLeft button{
+   
+    margin-left: -1rem;
+    margin-top: 3rem;
+}
+#IconRight button{
+    
+    margin-left: -5rem;
+    margin-right: 3rem;
+}
+#app{
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    margin-top: 3rem;
+
+}
+#app img{
+    width: 10%;
+}
+
+#appl{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.642);
+    padding-top: 3rem;
+}
+#appl p{
+    font-size: 0.85rem;
+    padding-left: 4rem;
+}
+#fo ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 4rem;
+}
+#fo ul li p{
+    padding-left: 1rem;
+
+
+}
+#Drive{
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: white;
+
+}
+#DriveLeft img{
+    width: 75%;
+    margin-top: 4rem;
+    padding-left: 4rem;
+
+}
+#DriveRight{
+    width: 50%;
+    margin: auto;
+}
+#DriveRight h1{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    margin-right: 1rem;
+
+}
+#DriveRight p{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 5rem;
+}
+#DriveRight button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 11px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#DriveRight span{
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding-left: 1rem;
+    
+}
+#business{
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: white;
+
+}
+#BusiLeft{
+    width: 60%;
+    margin: auto;
+}
+#BusiLeft h1{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    margin-left: 3.5rem;
+    padding-top: 7rem;
+    color: #333333;
+}
+#BusiLeft p{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 3.5rem;
+
+}
+#BusiLeft button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 11px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 3.5rem;
+    margin-top: 1rem
+}
+#BusiLeft a{
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding-left: 1rem;
+    text-decoration-color: #cbcbcb;
+}
+#BusiRight img{
+
+    width: 75%;
+    margin-top: 8rem;
+    margin-left: 7rem
+}
+#money{
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: white;
+}
+#moneyleft img{
+    width: 75%;
+    margin-top: 7rem;
+    padding-left: 4rem;
+
+}
+#moneyright{
+    width: 50%;
+    margin: auto;
+}
+#moneyright h1{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 1rem;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+
+}
+#moneyright p{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+#moneyright button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 8px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: none;
+    
+}
+#ride{
+    background-color: white;
+    width: 100%;
+    
+}
+#ride h1{
+    margin-top: 0;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-left: 4rem;
+    padding-top: 8rem;
+}
+#ride section{
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 90%;
+    /* margin: auto; */
+}
+#ride div{
+    width: 48%;
+    margin: auto;
+    /* text-align: right; */
+    display: inline-block;
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
+    
+}
+.fa-arrow-right{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    z-index: 3;
+}
+#div1{
+    display: flex;
+    /* justify-content:space-between ; */
+}
+#div2{
+    display: flex;
+    /* justify-content: ; */
+}
+#div3{
+    display: flex;
+    /* justify-content: ; */
+}
+#div4{
+    display: flex;
+    /* justify-content: ; */
+}
+#ride div img{
+    width: 50%;
+    margin: auto;
+    margin-left: 3rem;
+    
+}
+#ride div h2{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: -5rem;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#ride div p{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0rem;
+    margin-left: -5rem;
+}
+#code{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+#code h1{
+    background-color: white;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 3.5rem;
+    padding-bottom: 4rem;
+    margin: 0;
+    padding-top: 4rem;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
+#barcode{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    width: 100%;
+    margin-top: 0;
+}
+#barLeft{
+    display: flex;
+    background-color: white;
+}
+#barRight{
+    display: flex;
+    background-color: white;
+}
+#barcode a img{
+    width: 50%;
+    padding-left: 5rem;
+    margin-bottom: 5rem;
+}
+#barcode h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 32px;
+}
+#barcode p{
+    font-size: 1rem;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+/* *************************Mobile Version******************************** */
+
+
+
+
+
+
